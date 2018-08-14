@@ -1,0 +1,29 @@
+ul.nav li a:hover {
+  background-color: transparent;
+}
+
+.navbar-collapse.collapse {
+	height:100px !important;
+}
+.box {
+width: auto;
+  height: 150px;
+  text-align:center;
+  border-top: 5px solid;
+  border-image:   linear-gradient(to right, grey 15%, yellow 15%, yellow 30%,red 30%, red 45%, teal 45%, grey 60%, yellow 60%, yellow 75%,red 75%, red 90%, teal 90%) 3;
+}
+#imaginary_container{
+    margin-top:2%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
